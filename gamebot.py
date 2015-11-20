@@ -70,7 +70,7 @@ class GameBot(object):
     SW = PointInMap(-1, 1)
     W = PointInMap(-1, 0)
 
-    DIRECTIONS = [NW, N, NE, W, SE, S, SW, W]
+    DIRECTIONS = [NW, N, NE, E, SE, S, SW, W]
 
     def parse(self, feedback):
         """:feedback: <dict> that has
